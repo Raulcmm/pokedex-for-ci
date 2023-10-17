@@ -10,7 +10,6 @@ jobs:
       - name: Echo the message
         run: echo "Hola github de ${{ github.actor }}!!!"
 
-jobs:
   hello_world_2:
     runs-on: ubuntu-latest
     steps:
