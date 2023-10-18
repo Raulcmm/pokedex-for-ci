@@ -1,5 +1,5 @@
-name: Say hello
-run-name: ${{ github.actor }} pba
+name: Primer action
+run-name: Created by ${{ github.actor }} 
 
 on: [push]
 
