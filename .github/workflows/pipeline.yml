@@ -19,4 +19,4 @@ jobs:
           node-version: 'latest'
       - name: install npm modules
         run: npm install
-        run: npm run eslint
+      - run: npm run eslint
