@@ -21,3 +21,10 @@ jobs:
     steps:
       - name: diciendo la fecha
         run: date
+  create_a_file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: creando un archivo
+        run: touch index.html
+      - name: listando elementos
+        run: ls -l
