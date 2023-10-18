@@ -16,4 +16,5 @@ jobs:
       - name: Echo the message
         run: echo "${{ github.actor }} - ${{ github.actor_id }}!!!"
   dime la fecha:
-    run: date
+    steps:
+      run: date
