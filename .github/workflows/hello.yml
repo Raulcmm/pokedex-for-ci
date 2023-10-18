@@ -19,4 +19,5 @@ jobs:
   dime_la_fecha:
     runs-on: ubuntu-latest
     steps:
-      - run: date
+      - name: diciendo la fecha
+        run: date
