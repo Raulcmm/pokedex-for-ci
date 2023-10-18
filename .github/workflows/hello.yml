@@ -17,5 +17,6 @@ jobs:
         run: echo "${{ github.actor }} - ${{ github.actor_id }}!!!"
 
   dime la fecha:
+    runs-on: ubuntu-latest
     steps:
       - run: date
