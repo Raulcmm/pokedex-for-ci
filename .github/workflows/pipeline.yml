@@ -1,5 +1,5 @@
 name: Segundo action
-run-name: Usano mi codigo del repo
+run-name: Usando mi codigo del repo
 
 on:
   push:
@@ -16,9 +16,6 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-        # Version Spec of the version to use in SemVer notation.
-        # It also emits such aliases as lts, latest, nightly and canary builds
-        # Examples: 12.x, 10.15.1, >=10.15.0, lts/Hydrogen, 16-nightly, latest, node
-        node-version: 'latest'
+          node-version: 'latest'
       - name: install npm modules
         run: npm install
