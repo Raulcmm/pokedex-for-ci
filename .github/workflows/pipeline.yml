@@ -19,5 +19,4 @@ jobs:
           node-version: '14'
       - name: install npm modules
         run: npm install
-      - name: Lint
       - run: npm run eslint
