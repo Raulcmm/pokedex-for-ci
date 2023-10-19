@@ -25,9 +25,5 @@ jobs:
         run: npm run build
       - name: Test
         run: npm run test
-
-  cypress-run:
-    runs-on: ubuntu-latest
-    steps:
       - name: Cypress
         uses: cypress-io/github-action@v2
