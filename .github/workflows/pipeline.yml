@@ -28,6 +28,6 @@ jobs:
       - name: Cypress
         uses: cypress-io/github-action@v2
         with:
-          start: npm run start
           command: npm run test:e2e
+          start: npm run start
           wait-on: http://localhost:5000
